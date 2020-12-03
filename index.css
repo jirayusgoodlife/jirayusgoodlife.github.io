@@ -546,8 +546,8 @@ body {
   background: var(--text-color);
 }
 :root {
-  --bg-color: rgb(10, 10, 10);
-  --text-color: #fff;
+  --bg-color: rgb(255, 255, 255);
+  --text-color:  rgb(0, 0, 0);
   --blog-gray-color: rgb(180, 180, 180);
   --background-image: linear-gradient(
       90deg,
@@ -567,7 +567,7 @@ body {
 #display h1 {
   -webkit-background-clip: text;
   background-clip: text;
-  -webkit-text-fill-color: #fff;
+  -webkit-text-fill-color:  rgb(0, 0, 0);
 }
 
 #blog-display h1 {
@@ -577,7 +577,7 @@ body {
 }
 
 .projects section {
-  background: rgb(20, 20, 20);
+  background: rgb(255, 255, 255);
 }
 
 #blog_section section {
@@ -593,4 +593,8 @@ body {
       ),
       url("https://images.unsplash.com/photo-1553748024-d1b27fb3f960?w=1500&q=80") !important;
   }
+}
+
+a {
+  color: white;
 }
